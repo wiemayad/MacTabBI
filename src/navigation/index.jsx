@@ -9,7 +9,7 @@ const Navigation = () => {
             {/*<NavBar1 />*/}
 
             <Routes>
-                <Route path="/MacTabBI" element={<Conference />} />
+                <Route path="/" element={<Conference />} />
                 <Route path="/congrats" element={<Congrats />} />
 
             </Routes>
